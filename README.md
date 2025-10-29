@@ -3,70 +3,46 @@
 A comprehensive CI/CD configuration management tool for enterprise deployments.
 
 ## Project Status
-<<<<<<< HEAD
-**Version**: 1.0.0  
-**Environment**: Production  
-**Maintainer**: DevOps Team
+- **Production Version**: 1.0.0  
+- **Development Version**: 2.0.0-beta  
+- **Environments Supported**: Production & Development  
+- **Student**: [YOUR NAME]  
+- **Student ID**: [YOUR ID]
 
-=======
-**Version**: 2.0.0-beta  
-**Environment**: Development  
-**Maintainer**: DevOps Team
+---
 
-## New Features (In Development)
-- 🚀 Kubernetes orchestration support
-- 🔄 Advanced blue-green deployment
-- 📊 Enhanced monitoring dashboard
-- 🔐 OAuth2 authentication
-- 🐳 Docker Compose integration
-
->>>>>>> dev
 ## Features
-- Automated deployment scripts
-- Real-time monitoring
-- Configuration management
-- Backup and recovery system
-<<<<<<< HEAD
+
+### Core Features (Common)
+- Automated deployment scripts  
+- Real-time monitoring  
+- Configuration management  
+- Backup and recovery system  
+
+---
+
+### Production-Specific Features
+- SSL/TLS encryption for secure communication  
+- Auto-scaling for high availability  
+- Load balancer integration  
+- Scheduled automated backups  
+- Zero-downtime rolling deployments  
+
+---
+
+### Development-Specific Features (Beta)
+- Docker Compose integration for local testing  
+- Hot reload enabled for faster iteration  
+- Debug mode active with detailed logs  
+- Enhanced logging and verbose console output  
+- Mock external APIs for testing  
+- Live-reload and source maps support  
+
+---
 
 ## Quick Start
-1. Clone the repository
-2. Configure environment variables
-3. Run deployment script
-4. Monitor system health
-=======
-- **NEW**: Multi-cloud support (AWS, Azure, GCP)
-- **NEW**: Slack/Discord notifications
 
-## Quick Start
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Configure environment variables
-4. Run in development mode: `npm run dev`
-5. Access dashboard at http://localhost:3000
-
-## Development Setup
+### 🏭 Production Mode
 ```bash
-# Install dependencies
-npm install
-
-# Run tests
-npm test
-
-# Start development server
-npm run dev
-```
->>>>>>> dev
-
-## Documentation
-See `/docs` folder for detailed documentation.
-
-<<<<<<< HEAD
-## License
-MIT License
-=======
-## Contributing
-Please read CONTRIBUTING.md before submitting pull requests.
-
-## License
-MIT License
->>>>>>> dev
+export DEPLOY_ENV=production
+./scripts/deploy.sh
